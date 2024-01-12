@@ -31,8 +31,6 @@ const AddPostForm =() =>{
         </option>
     ))
 
-   
-
     return (
         <div>
             <h1>Posts</h1>
