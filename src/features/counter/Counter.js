@@ -11,7 +11,6 @@ const Counter =()=>{
     const resetAll=()=>{
         setIncrementByAmount(0);
         dispatch(reset());
-
     }
 
     return (

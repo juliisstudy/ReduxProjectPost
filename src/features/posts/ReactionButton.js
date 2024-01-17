@@ -14,7 +14,7 @@ const ReactionButtons = ({post})=>{
     const ReactionButtons = Object.entries(reactionEomji).map(([name,emoji])=>{
         return(
             <button key={name} type="button" 
-                onClick={()=>dispatch(reactionAdded({postId:post.id,reaction:name}))}
+                onClick={()=>dispatch(reactionAdded({postId:post.id,reactions:name}))}
             >
                 {emoji}{post.reactions[name]}
             </button>
