@@ -1,4 +1,4 @@
-<h1 align="center" id="top">React - Redux Post Project website</h1>
+<h1 align="center" id="top">React - Redux Post Project </h1>
 <br/>
 Implemented the React Post Project website for learning and practicing React and Redux.
 <br/>
